@@ -7,23 +7,29 @@ body {
     background-color: brown;
 }
 
-.title, .recipes {
+.title, .recipes, div {
     background-color: burlywood;
-    width: 500px;
+    width: 800px;
     margin: 0 auto;
+    padding: 10px;
 }
 
 .title {
     text-align: center;
     outline: 2px solid bisque;
-    padding: 5px;
     color: darkolivegreen;
 }
 
-.recipes {
-    margin: 5px auto;
+.link {
+    margin-left: 20px;
 }
 
-.link {
-    color: firebrick;
+img {
+    display: block;
+    margin: 0 auto;
 }
+
+.second-title {
+    color: darkred;
+}
+
